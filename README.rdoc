@@ -130,6 +130,8 @@ The following query operators are supported:
 
 === Pagination
 
+(actually works in this branch)
+
 ==== With Relevance
 
 Pagination is supported via the +paginate_search+ method whose first argument is the search query, followed all the standard will_paginate arguments.
@@ -178,8 +180,10 @@ stemming).
 
 == Problems, Comments, Suggestions?
 
-All of the above are most welcome. mailto:dougal.s@gmail.com
-
+I just hacked in stemming support on a whim and I have no real use for
+this software right now.  So, I guess if you find bugs in stemming
+(and you will; it's only marginally tested), submit a bug report via
+Github or personal email.
 
 == Contributors
 
